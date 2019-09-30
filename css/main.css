@@ -1,0 +1,792 @@
+/* Every Project ============================================== */
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    /*Мой rem всегда равен 24? media?*/
+
+}
+
+.wrapper {
+    width: 85%;
+    max-width: 1280px;
+    /*  как выбрать экран */
+    margin: 0 auto;
+   /* padding-left: 7.5%;
+    padding-right: 7.5%; */
+}
+
+/* Every Project ==============================================*/
+
+
+
+
+
+
+/* Header ==============================================*/
+
+.NLogo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.LogoNavigation {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    justify-content: space-between;
+    padding-top: 5%;
+
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+
+
+
+}
+
+.navigation ul li {
+    font-size: 18px;
+}
+
+.navigation ul a:not(first-child) {
+    margin-left: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.navigation li:hover {
+    color: #0176F6;
+    border-bottom: 2px solid #0176F6;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+.intro {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 8%;
+    z-index: 20;
+}
+
+.span_blue_name {
+    font-size: 58px;
+    color: #0176F6;
+}
+
+.ImgAbsolute {
+    position: relative;
+    z-index: 10;
+    width: 700px;
+    max-width: 75%;
+    margin-left: 27%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    height: 100%;
+}
+
+.HeaderBlue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 65%;
+    width: 43.1%;
+    background-color: #75B3F8;
+}
+
+h1 span {
+    margin-left: 1%;
+
+}
+
+h1 {
+    font-size: 58px;
+}
+
+.span-freelance {
+    font-size: 24px;
+}
+
+.span_blue {
+    font-size: 12px;
+    color: #0176F6;
+
+}
+
+.header-btn {
+    background-color: #fff;
+    border: 1px solid #75B3F8;
+    ;
+    margin-top: 15%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-right: 12%;
+    padding-left: 12%;
+    text-transform: uppercase;
+    color: #75B3F8;
+}
+
+.header-btn:hover {
+    background-color: #fff;
+    border: 1px solid #0176F6;
+    ;
+    margin-top: 15%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-right: 12%;
+    padding-left: 12%;
+    text-transform: uppercase;
+    color: #0176F6;
+    transition: 1.2s;
+}
+
+/* Header ==============================================*/
+
+
+
+
+
+/* AboutMe ==============================================*/
+
+.AboutMe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AboutMeimg {
+    position: relative;
+    z-index: 10;
+}
+
+.SquareBlue1 {
+    position: absolute;
+    top: 40px;
+    left: -55px;
+    border-radius: 1%;
+    height: 170px;
+    width: 55px;
+    background-color: #0176F6;
+}
+
+.SquareBlue2 {
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    top: 550px;
+    z-index: 20;
+    right: -305px;
+    border-radius: 1%;
+    background-color: #0176F6;
+    text-align: left;
+   
+}
+.SquareBlue2 p {
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 24px;
+    color: #fff;
+}
+.AboutImg {
+    width: 450px;
+    padding-bottom: 15%;
+
+}
+
+.AboutMeContent {
+    border-top: 1px solid transparent;
+}
+
+.AboutMeText {
+    width: 600px;
+}
+
+.AboutMeText span {
+    display: block;
+    margin-top: 60px;
+    font-size: 18px;
+
+
+}
+
+.AboutMeText h3 {
+    font-size: 36px;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.AboutMeText p {
+    color: rgba(19, 12, 12, 0.6);
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.AboutMySkills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15%;
+    border-top: 1px solid transparent;
+}
+
+.WebDesign {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.WebApplication {
+    display: flex;
+    flex-direction: column;
+}
+
+.WebApplication h4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+.WebDesign h4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+.WebApplication p {
+
+    font-size: 18px;
+}
+
+.WebDesign p {
+
+    font-size: 18px;
+}
+
+/* AboutMe ==============================================*/
+
+
+
+
+
+/* My Skills ==============================================*/
+.MySkills {
+    background-color: #F8F9FA;
+}
+
+.HeaderPages {
+    text-align: center;
+    margin-bottom: 10%;
+    padding-top: 10%;
+}
+
+.HeaderPages span {
+    font-size: 24px;
+}
+
+.HeaderPages h3 {
+    /*где собирать общие эл-ты*/
+    font-size: 42px;
+    margin-bottom: 3%;
+}
+
+.HeaderPages p {
+    font-size: 18px;
+}
+
+.SkillsItem {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    border-bottom: 15px solid #F0F0F0;
+    padding-bottom: 37px;
+    margin-bottom: 7.5%;
+    margin-top: 7.5%;
+    border-radius: 2px;
+}
+
+.SkillsPrecent1 {
+    position: absolute;
+    display: flex;
+    width: 375px;
+    justify-content: space-between;
+    border-bottom: 15px solid #0176F6;
+    padding-bottom: 20px;
+
+}
+
+.SkillsPrecent2 {
+    position: absolute;
+    display: flex;
+    width: 425px;
+    justify-content: space-between;
+    border-bottom: 15px solid #0176F6;
+    padding-bottom: 20px;
+}
+
+.SkillsPrecent3 {
+    position: absolute;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    border-bottom: 15px solid #0176F6;
+    padding-bottom: 20px;
+}
+
+.SkillsPrecent4 {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    border-bottom: 15px solid #0176F6;
+    padding-bottom: 20px;
+}
+
+.SkillsPrecent5 {
+    position: absolute;
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    border-bottom: 15px solid #0176F6;
+    padding-bottom: 20px;
+}
+
+.SkillsPrecent6 {
+    position: absolute;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    border-bottom: 15px solid #0176F6;
+    padding-bottom: 20px;
+}
+
+
+
+.SkillsResult {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10%;
+
+}
+
+
+.column1 {
+    width: 50%;
+
+}
+
+.column2 {
+    width: 50%;
+    padding-left: 3.5%;
+
+
+}
+/* My Skills ============================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WhatIdo ==============================================*/
+.WhatIDo {
+    background-color: #F8F9FA;
+}
+
+.WhatIDo-container {
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.WhatIDoItems {
+    width: 33.3333%;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(150, 141, 141, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.WhatIDoItems {
+    margin-left: 5%;
+    
+}
+
+.WhatIDoItems:first-child {
+    margin: 0%;
+}
+
+.WhatIDoItems h5 {
+    letter-spacing: 3px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 4%;
+    font-size: 18px;
+}
+
+.WhatIDoItems span {
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+/* WhatIdo ==============================================*/
+
+
+
+
+
+
+
+
+
+
+/* available ==============================================*/
+.available {
+    height: 40vh;
+    background-color: #0176F6;
+}
+
+.ava_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+
+}
+
+.ava-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 2%;
+}
+
+.ava_item h2 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.ava_item strong {
+    font-size: 42px;
+    color: #fff;
+}
+
+/* available ==============================================*/
+
+
+
+
+
+
+
+
+/* Our Projects ==============================================*/
+.grid_layout {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.grid_item:hover .gtid__content {
+    opacity: 1;
+    transition: 0.9s;
+}
+.grid__content {
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 81, 221, 0.9);
+    opacity: 0;
+}
+
+.FlexRow1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.FlexRow2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grid_item_img1 {   
+    padding: 10px 10px;
+    height: 700px;
+    width: 100%;
+}
+
+.grid-item2 img {
+    padding: 10px 10px;
+    height: 350px;
+    width: 100%;
+}
+.grid-item3 img {
+    width: 100%;
+    height: 350px;
+    padding: 10px 10px;
+}
+.grid-item4 img {
+    height: 350px;
+    max-width: 400px;
+    width: 100%;
+    padding: 10px 10px;
+}
+.grid-item5 img {
+    height: 350px;
+    width: 100%;
+    max-width: 700px;
+    padding: 10px 10px;
+}
+
+/* Our Projects ==============================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* Our Blog ==============================================*/
+.OurBlog {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    background-color: #F8F9FA;
+}
+.OurBlogContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.OurBlogItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    max-width: 345px;
+    width: 100%;
+    margin-left: 1%;
+}
+.OurImg img {
+    width: 300px; 
+    height: 350px;
+}
+.OurSpan span {
+    font-size: 14px;
+    color: #0176F6;
+}
+.Ourh5 h5 {
+    font-size: 20px;
+}
+.Ourh5 h5:hover {
+    color: #0176F6;
+    transition: 1.2s;
+}
+.OurText p {
+    font-size: 18px;
+    color: rgba(150, 141, 141, 0.9);
+}
+.OurTransperent p {
+    color: rgba(150, 141, 141, 0.9);
+}
+
+/* Our Blog ==============================================*/
+
+
+
+
+
+
+
+
+
+/* Contact Me ============================================== */
+.ContactMe {
+    
+}
+.MyFormContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+    
+
+}
+.FormImg img {
+    width: 550px; 
+    
+}
+input[type='Name'] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 170px;
+    padding-left: 10px;
+    margin-top: 25%;
+    border: 1px solid rgba(150, 141, 141, 0.9);
+    border-radius: 2%;
+}
+input[type='email'] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 170px;
+    padding-left: 10px;
+    margin-top: 5%;
+    border: 1px solid rgba(150, 141, 141, 0.9);
+    border-radius: 2%;
+}
+input[type='subject'] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 170px;
+    padding-left: 10px;
+    margin-top: 5%;
+    border: 1px solid rgba(150, 141, 141, 0.9);
+    border-radius: 2%;
+}
+.Form  {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.Form input {
+    display: inline-block;
+}
+.Form button {
+    display: block;
+    padding: 15px 30px;
+    border-radius: 2%;
+    margin-left: 18.5%;
+    margin-top: 5%;
+    background-color: #0176F6;
+    color: #fff;
+    text-align: center;
+}
+textarea[name='Message'] {
+    resize: none;
+    width: 63%;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+    margin-top: 5%;
+    border: 1px solid rgba(150, 141, 141, 0.9);
+    border-radius: 2%;
+}
+/* Contact Me ============================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pre-Footer ============================================== */
+.Pre-Footer {
+    background-color: #0176F6;
+    
+}
+.Footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-bottom: 10%;
+    color: rgb(255, 255, 255, 0.7);
+    padding-top: 10%;
+    flex-wrap: wrap;
+}
+.FooterItem {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.FooterItem h5 {
+    color: #fff;
+    font-size: 18px;
+}
+.FooterShrink {
+    flex-basis: 250px;
+}
+
+/* Pre-Footer ============================================== */
+
+
+
+
+
+
+
+.footer {
+    background-color: #0176F6;
+    text-align: center;
+    padding-bottom: 15%;
+    color: rgb(255, 255, 255, 0.7);
+}
+.footer span {
+    font-size: 20px;
+}
